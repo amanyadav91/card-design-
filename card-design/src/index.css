@@ -1,0 +1,37 @@
+.card{
+  border: 1px solid rgb(158, 148, 148);
+  border-radius: 60px;
+  box-shadow: 5px 5px 5px hsl();
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  max-width: 300px;
+  display:inline-table;
+  background-color:mistyrose;
+}
+.card .image{
+  max-width:200px;;
+  height:auto;
+  border-radius:30%;
+  margin-bottom: 20px;
+
+}
+.card .card-tittle1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color:black
+}
+.card .card-tittle2{
+  font-size:large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;;
+  color: rgb(27, 9, 9);
+
+}
+.card .about{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
