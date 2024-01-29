@@ -1,13 +1,15 @@
 .card{
   border: 1px solid rgb(158, 148, 148);
   border-radius: 60px;
-  box-shadow: 5px 5px 5px hsl();
+  box-shadow: 5px 5px 5px  5px hsl();
   padding: 40px;
   margin: 10px;
   text-align: center;
-  max-width: 300px;
+  max-width:50px;
+  height:50px;
   display:inline-table;
   background-color:mistyrose;
+  text-wrap:inline;
 }
 .card .image{
   max-width:200px;;
@@ -34,4 +36,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow-wrap: normal;
+  text-wrap:  normal;
 }
