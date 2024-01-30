@@ -16,12 +16,12 @@ h1{
   border-radius: 60px;
   box-shadow: 10px 10px 10pxx 10px hsl();
   padding: 40px;
-  margin: 60px auto;
+  margin:20px;
   text-align:center;
   align-items: center;
   height:50px;
   display:inline-table;
-  background-color:lightskyblue;
+  background-color:rgb(96, 119, 134);
   text-wrap:inline;
   max-width: max-content;
   
@@ -87,5 +87,6 @@ th, td{
   width:33%;
   margin:0 auto;
   align-self:center;
+  text-overflow: clip; 
 
 }
