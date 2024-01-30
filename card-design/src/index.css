@@ -23,6 +23,8 @@ h1{
   display:inline-table;
   background-color:lightskyblue;
   text-wrap:inline;
+  max-width: max-content;
+  
 }
 .card .image{
   max-width:200px;;
@@ -82,7 +84,7 @@ th, td{
 
 }
 .App{
-  width:40%;
+  width:33%;
   margin:0 auto;
   align-self:center;
 

@@ -1,14 +1,19 @@
 import { useState } from "react";
+// import Card from "@mui/material/card";
+// import CardContent from "@mui/material/CardContent";
+// import button from "@mui?/material/button";
 
+// const CardContent =()=>{
 
+// }
 function Card(){
 
     const [view1,setView1]=useState(false)
     const [view2,setView2]=useState(false)
-    const [view3,setView3]=useState(false)
-    const [view4,setView4]=useState(false)
-    const [view5,setView5]=useState(false)
-    const [view6,setView6]=useState(false)
+    // const [view3,setView3]=useState(false)
+    // const [view4,setView4]=useState(false)
+    // const [view5,setView5]=useState(false)
+    // const [view6,setView6]=useState(false)/
 
     return(<>
     {/* dog breed 1 */}
